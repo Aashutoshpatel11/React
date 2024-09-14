@@ -8,10 +8,18 @@ function App() {
   let [counter , setcounter] = useState(10)
 
   let ADD = ()=>{
-    if (counter<20) setcounter(counter+1)
+    if (counter<20){
+      // setcounter( prevcounter => prevcounter+1 )
+      // setcounter( prevcounter => prevcounter+1 )
+      // setcounter( prevcounter => prevcounter+1 )
+      // setcounter( prevcounter => prevcounter+1 )
+      setcounter(counter+1)
+    }
   }
   let DELETE = ()=>{
-    if(counter>0) setcounter(counter-1)
+    if(counter>0){
+      setcounter(counter-1)
+    }
   }
 
   return (
